@@ -1,0 +1,220 @@
+
+
+.container{
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: space-around;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: chartreuse;
+    
+
+    
+}
+.item{
+    padding: 20px;
+}
+.item1{
+    background-color: bisque;
+    
+
+}
+.item2{
+    background-color: chocolate;
+}
+.item3{
+    background-color: lavenderblush;
+}
+.item4{
+    background-color: silver;
+}
+.item5{
+    background-color: lightskyblue;
+}
+.item6{
+    background-color: plum;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border : 3px solid red;
+    padding: 10px;
+}
+.box1{
+    width: 50%;
+    height: 50px;
+    border: 1px solid mediumorchid;
+    text-align: center;
+    padding: 20px;
+}
+header{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    padding : 15px;
+    font-size: 1.2rem;
+    color: white;
+
+}
+p{
+    font-size: 1.3rem;
+}
+.small-box{
+    padding: 20px;
+    font-size: 18px;
+}
+.col1{
+    background-color: beige;
+}
+.col2{
+    background-color: cadetblue;
+}
+.img{
+    width: 400px;
+    
+}
+a{
+    color: indianred;
+    text-decoration: none;
+}
+.font>h2{
+    font-size: 2rem;
+}
+.sub-container{
+    width: 200px;
+    height: 200px;
+    background-color: darkkhaki;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width : 100px;
+    height : fit-content;
+    background-color: aqua;
+    border : 2px solid black;
+    padding : 20px;
+}
+.content>:first-child{
+    background-color: antiquewhite;
+}
+.content>:nth-child(2){
+    background-color: lightcoral;
+}
+.content>:last-child{
+ background-color: lightskyblue;
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+    width: 80px;
+    padding: 20px;
+    
+}
+.sub-text{
+    padding: 15px;
+    text-align: center;
+
+    
+}
+.text1{
+background-color: aquamarine;
+}
+.text2{
+    background-color: brown;
+}
+.text3{
+    background-color: burlywood;
+}
+.text4{
+    background-color: darkcyan;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width: 1024px){
+    body{
+        background-color: lightblue;
+    }
+}
+@media screen and (min-width:600px) and (max-width:1200px){
+    p{
+        font-size: 18px;
+        color: palevioletred;
+    }
+}
+@media screen and (max-width : 480px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media  screen and (min-width :500px) and (max-width : 800px) {
+    h1{
+        color : green;
+    }
+    
+}
+@media screen and (max-width : 400px){
+    #image{
+        display: none;
+    }
+}
+@media screen and (min-width : 1024px) {
+    .box{
+        padding : 20px;
+    }
+}
+@media screen and (min-width : 600px) and (max-width : 1200px) {
+    header{
+        background-color: lightgray;
+    }
+}
+@media screen and (max-width: 480px) {
+    p{
+        font-size : 16px;
+    }
+}
+@media screen and (min-width : 768px ) and (max-width : 1200px) {
+    .small-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width : 600px) {
+    .img{
+        width : 100%;
+    }
+}
+@media screen and (min-width: 700px) and (max-width : 1200px) {
+    a{
+        color : blue;
+    }
+}
+@media screen and (min-width : 500px) and (max-width : 800px){
+    .font>h2{
+        font-size: 24px;
+    }
+}
+@media screen and (min-width : 1024px) {
+    .sub-container{
+        border : 2px solid black;
+    }
+}
+@media screen and (min-width : 800px)  and (max-width : 1200px){
+    .content{
+        width : 250px;
+    }
+}
+@media screen and (min-width : 600px) {
+    .text {
+        flex-direction: column;
+        
+    }
+}
